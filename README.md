@@ -19,6 +19,13 @@ It contains also the `numpy`, `sympy` and `matplotlib` python libraries.
 
 ### Installation
 
+Clone this repository
+```bash
+mkdir phifem-poisson-dirichlet
+git clone https://github.com/PhiFEM/Poisson-Dirichlet-FEniCS.git phifem-poisson-dirichlet
+cd phifem-poisson-dirichlet
+```
+
 Specify your container engine in the environment variable:
 ```bash
 export CONTAINER_ENGINE=[YOUR-ENGINE-HERE]
