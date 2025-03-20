@@ -28,7 +28,7 @@ cd phifem-poisson-dirichlet
 
 Specify your container engine in the environment variable:
 ```bash
-export CONTAINER_ENGINE=[YOUR-ENGINE-HERE]
+export CONTAINER_ENGINE=your-engine-here
 ```
 
 Pull the container image from the `docker.io` registry:
