@@ -4,7 +4,8 @@ Repository containing the codes used in [Duprez, Michel, and Alexei Lozinski. "Ï
 
 ## This repository is for reproducibility purposes only
 
-
+It is "frozen in time" and not maintained.
+To use our latest $\varphi$-FEM code please refer to the [phiFEM repository](https://github.com/PhiFEM/Poisson-Dirichlet-fenicsx).
 
 ## Usage
 
