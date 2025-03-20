@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 # Number of iterations
 init_Iter = 1
-Iter = 1
+Iter = 4
 
 # parameter of the ghost penalty
 sigma = 20
