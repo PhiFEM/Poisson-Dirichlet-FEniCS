@@ -28,24 +28,19 @@ cd phifem-poisson-dirichlet
 
 Specify your container engine in the environment variable:
 ```bash
-export CONTAINER_ENGINE=your-engine-here
+export CONTAINER_ENGINE=docker
 ```
 
 Pull the container image from the `docker.io` registry:
 ```bash
-bash pull-image.sh
+sudo -E bash pull-image.sh
 ```
-
-> **Note:** Depending on your container engine, you might need super-user privileges, in this case use:
-> ```bash
-> sudo -E bash pull-image.sh
-> ```
 
 ### Usage
 
 Launch the image:
 ```bash
-bash run-image.sh
+sudo -E bash run-image.sh
 ```
 
 From the container, launch a test case for example:
