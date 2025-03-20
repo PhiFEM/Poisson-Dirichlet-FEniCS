@@ -36,7 +36,7 @@ Pull the container image from the `docker.io` registry:
 bash pull-image.sh
 ```
 
-> **Note:** Depending on your container engine, you might need super-user privileges, in this case uses:
+> **Note:** Depending on your container engine, you might need super-user privileges, in this case use:
 > ```bash
 > sudo -E bash pull-image.sh
 > ```
