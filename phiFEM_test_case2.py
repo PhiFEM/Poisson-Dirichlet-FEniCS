@@ -1,14 +1,13 @@
 from __future__ import print_function
 import numpy as np
 from dolfin import *
-import sympy
 import matplotlib.pyplot as plt
 parameters['allow_extrapolation'] = True
 from mshr import *
 
 # Number of rellienement
 init_Iter = 1
-Iter = 6
+Iter = 3
 
 # parameter of the ghost penalty
 sigma = 100
