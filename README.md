@@ -14,7 +14,7 @@ To use our latest $\varphi$-FEM code please refer to the [phiFEM repository](htt
 - [Git](https://git-scm.com/)
 - [Docker](https://www.docker.com/)/[podman](https://podman.io/) (or any container engine with similar API as docker and podman.)
 
-The docker image is based on the legacy FEniCS image: quay.io/fenicsproject/stable.
+The image is based on the legacy FEniCS image: quay.io/fenicsproject/stable.
 It contains also the `numpy`, `sympy` and `matplotlib` python libraries.
 
 ### Installation
@@ -43,7 +43,7 @@ Launch the image:
 sudo -E bash run-image.sh
 ```
 
-From the container, launch a test case for example:
+From the container, launch a test case, for example:
 ```bash
 python3 phiFEM_test_case1.py
 ```
